@@ -1,0 +1,41 @@
+.tour-step-backdrop {
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.tour-step-backdrop__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    .tour-step-backdrop__bottom, 
+    .tour-step-backdrop__right, 
+    .tour-step-backdrop__top, 
+    .tour-step-backdrop__left {
+       position: relative;
+    }
+    .tour-step-backdrop__top {
+        width: 100%;
+    }
+    .tour-step-backdrop__middle {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        .tour-step-backdrop__right {
+            width: 100%;
+        }
+        .target-window {
+            flex-shrink: 0;
+            background: transparent;
+        }
+        .tour-step-backdrop__left {
+            flex-shrink: 0;
+        }
+    }
+    .tour-step-backdrop__bottom {
+        width: 100%;
+    }
+}

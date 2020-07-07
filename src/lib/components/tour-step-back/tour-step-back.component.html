@@ -1,0 +1,42 @@
+<div
+    class="tour-step-backdrop"
+    [style.height.px]="stepBackSize.pageHeight"
+    [style.position]="position"
+    [style.opacity]="opacity"
+>
+  <div class="tour-step-backdrop__container" >
+    <div 
+      class="tour-step-backdrop__top"
+      [style.height.px]="stepBackSize.top"
+      [style.background]="themeColor"
+    ></div>
+    <div 
+      class="tour-step-backdrop__middle"
+      [style.height.px]="stepBackSize.height"
+    >
+      <div 
+        class="tour-step-backdrop__left"
+        [style.height.px]="stepBackSize.height"
+        [style.width.px]="stepBackSize.left"
+        [style.background]="themeColor"
+      ></div>
+      <div
+        class="target-window"
+        [style.width.px]="stepBackSize.width"
+        [style.height.px]="stepBackSize.height"
+        [style.background]="targetBackground"
+      >
+      </div>
+      <div
+        class="tour-step-backdrop__right"
+        [style.height.px]="stepBackSize.height"
+        [style.background]="themeColor"
+      ></div>
+    </div>
+    <div
+      class="tour-step-backdrop__bottom"
+      [style.background]="themeColor"
+      [style.height.px]="stepBackSize.pageHeight-stepBackSize.bottom"
+    ></div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+{
+  "name": "@p1n2o/ng-tour",
+  "version": "0.0.1",
+  "description": "A simple, minimalistic tour/on-boarding library for Angular (2+)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/P1N2O/ng-tour"
+  },
+  "keywords": [
+    "angular, tour, ng-tour, on-boarding, walk-through, ui-guide"
+  ],
+  "author": "Manuel Pinto <hello@manuelpinto.in>",
+  "license": "MIT",
+  "homepage": "https://github.com/P1N2O/ng-tour#readme",
+  "peerDependencies": {
+    "@angular/core": ">=4.0.0",
+    "@angular/common": ">=4.0.0",
+    "@angular/compiler": ">=4.0.0",
+    "@angular/router": ">=4.0.0",
+    "rxjs": ">=5.0.0",
+    "zone.js": ">=0.8.12"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
